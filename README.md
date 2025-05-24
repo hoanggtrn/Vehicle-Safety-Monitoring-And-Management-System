@@ -1,21 +1,63 @@
-# Graduation-thesis
- Đồ án tốt nghiệp K20 UTE (9/10 points)
 
-Đề tài này hướng đến thiết kế và xây dựng một thiết bị có khả năng theo dõi và 
-giám sát các trạng thái như tốc độ, vị trí và các thông tin liên quan đến hệ thống như 
-điện áp bình ắc quy, pin và có khả năng cảnh báo khi có các tình huống khẩn cấp như 
-va chạm, ngủ gục, quá tốc độ, mất cắp. Chi tiết thông tin các trạng thái này có thể 
-được quản lý và theo dõi thông qua tin nhắn tại bất cứ đâu bất cứ khi nào hoặc thông 
-qua dữ liệu được lưu trữ trong thẻ nhớ. Thiết bị có khả năng sử dụng với nhiều người 
-dùng mang đến sự an toàn và tiện dụng cho người sử dụng.
+# Hệ Thống Quản Lý và Giám Sát An Toàn Cho Người Lái Xe
 
-  Qua quá trình nghiên cứu, người thực hiện đề tài đã phát triển và hoàn thiện hệ 
-thống dựa trên các ý tưởng có sẵn, đồng thời kế thừa các tính năng từ những thiết bị 
-khác. Hệ thống cho thấy khả năng ứng dụng hiệu quả trong môi trường thực tế, với 
-hiệu suất tốt và ổn định khi hoạt động cùng với khả năng mở rộng và nâng cấp trong 
-tương lai. Bên cạnh đó, người thực hiện đã tiến hành đánh giá các kết quả thực nghiệm 
-để đảm bảo độ chính xác của hệ thống.
+Đồ án tốt nghiệp - Trần Nguyễn Khánh Hoàng  
+Khoa Điện - Điện Tử, Trường Đại học Sư phạm Kỹ thuật TP.HCM  
+Thời gian: 12/2024
 
-Đề tài này đáp ứng các yêu cầu trong việc bảo đảm an toàn cho người sử dụng 
-phương tiện giao thông, giảm thiểu tỉ lệ gặp tai nạn khi điều khiển phương tiện đồng 
-thời giảm rủi ro về tình trạng mất cắp.
+## 📌 Giới thiệu
+
+Hệ thống được thiết kế nhằm hỗ trợ giám sát và nâng cao an toàn cho người điều khiển xe máy thông qua các tính năng theo dõi tình trạng hoạt động và phát hiện nguy hiểm trong quá trình tham gia giao thông. Hệ thống bao gồm bộ trung tâm và bộ cảnh báo ngủ gục với khả năng giao tiếp không dây, xử lý tín hiệu và gửi cảnh báo qua SMS.
+
+## 🎯 Mục tiêu
+
+- Giám sát tốc độ, vị trí GPS, điện áp hệ thống, trạng thái pin.
+- Cảnh báo khi phát hiện các tình huống khẩn cấp: va chạm, ngủ gục, vượt quá tốc độ, mất trộm xe.
+- Điều khiển khóa/mở khóa từ xa qua tin nhắn SMS.
+- Lưu trữ thông tin hoạt động vào thẻ nhớ microSD.
+- Giao tiếp không dây giữa các module thông qua ESP-NOW.
+
+## ⚙️ Thành phần chính
+
+- **Vi điều khiển chính:** ESP32-WROOM32
+- **Cảm biến:**
+  - MPU6050 (gia tốc)
+  - Hall sensor (tốc độ)
+  - Cảm biến điện áp
+- **Module ngoại vi:**
+  - SIM A7680C (GSM/GPS)
+  - RC522 (RFID)
+  - MicroSD module
+  - Relay điều khiển khóa xe
+- **Giao tiếp:** ESP-NOW, UART, I2C, SPI
+
+## 🛠 Cấu trúc hệ thống
+
+- Bộ trung tâm: xử lý chính, thu thập dữ liệu, gửi cảnh báo SMS.
+- Bộ cảnh báo ngủ gục: cảm biến trạng thái đầu, truyền thông với bộ trung tâm.
+- Vỏ hộp thiết kế riêng cho từng module.
+- PCB tùy chỉnh theo sơ đồ nguyên lý.
+
+## 📊 Kết quả đạt được
+
+- Hệ thống hoạt động ổn định trong các thử nghiệm thực tế.
+- Độ chính xác cao trong việc phát hiện va chạm và vượt tốc.
+- Có khả năng mở rộng, nâng cấp thêm nhiều chức năng.
+- Gửi và nhận tin nhắn phản hồi chính xác trong thời gian thực.
+
+## 🔍 Giới hạn đề tài
+
+- Chỉ giám sát qua SMS, chưa có kết nối internet/thời gian thực.
+- Danh sách người dùng cố định.
+- Cảnh báo dựa trên ngưỡng đã thiết lập sẵn.
+- Tốc độ giới hạn cứng ở 55 km/h.
+
+## 🚀 Hướng phát triển tương lai
+
+- Thêm giao diện web/app theo dõi trạng thái thời gian thực.
+- Tự động học và điều chỉnh ngưỡng cảnh báo thông minh.
+- Mở rộng hệ thống nhận dạng người lái xe bằng sinh trắc học.
+
+## 📄 Tài liệu liên quan
+
+Xem toàn bộ báo cáo đồ án tại file `01-TranNguyenKhanhHoang.DATN (final).pdf`.
