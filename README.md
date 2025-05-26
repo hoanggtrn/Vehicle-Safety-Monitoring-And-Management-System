@@ -38,6 +38,14 @@ Hệ thống được thiết kế nhằm hỗ trợ giám sát và nâng cao an
 - Vỏ hộp thiết kế riêng cho từng module.
 - PCB tùy chỉnh theo sơ đồ nguyên lý.
 
+  ### 🔧 Hình ảnh thiết kế và thực tế
+
+**PCB Thiết Kế (2D/3D):**  
+![PCB Design](images/pcb_design.jpg)
+
+**Thiết bị thực tế lắp ráp:**  
+![PCB Real](images/pcb_real.jpg)
+
 ## 📊 Kết quả đạt được
 
 - Hệ thống hoạt động ổn định trong các thử nghiệm thực tế.
