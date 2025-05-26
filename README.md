@@ -44,7 +44,7 @@ Hệ thống được thiết kế nhằm hỗ trợ giám sát và nâng cao an
 ![PCB Design](images/pcb_design.jpg)
 
 **Thiết bị thực tế lắp ráp:**  
-![PCB Real](images/pcb_real.jpg)
+![PCB Real](https://github.com/hoanggtrn/Vehicle-Safety-Monitoring-And-Management-System/blob/b891f5cc6a181db0935d6e91fd1c9045bce5793c/Thi%E1%BA%BFt%20k%E1%BA%BF/H%C3%ACnh%20%E1%BA%A3nh%20s%E1%BA%A3n%20ph%E1%BA%A9m/P1011317.JPG)
 
 ## 📊 Kết quả đạt được
 
