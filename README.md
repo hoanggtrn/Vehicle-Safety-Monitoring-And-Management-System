@@ -41,11 +41,12 @@ Hệ thống được thiết kế nhằm hỗ trợ giám sát và nâng cao an
   ### 🔧 Hình ảnh thiết kế và thực tế
 
 **PCB Thiết Kế (2D/3D):**  
-![PCB Design](images/pcb_design.jpg)
+![PCB Design](https://github.com/hoanggtrn/Vehicle-Safety-Monitoring-And-Management-System/blob/4c5854178aebe95d2d50cff45d7e387fc7b77728/Thi%E1%BA%BFt%20k%E1%BA%BF/B%E1%BB%99%20trung%20t%C3%A2m/M%E1%BA%A1ch%20in/PCB_botrungtam(front).png)
+![PCB Design](https://github.com/hoanggtrn/Vehicle-Safety-Monitoring-And-Management-System/blob/4c5854178aebe95d2d50cff45d7e387fc7b77728/Thi%E1%BA%BFt%20k%E1%BA%BF/B%E1%BB%99%20c%E1%BA%A3nh%20b%C3%A1o%20ng%E1%BB%A7%20g%E1%BB%A5c/M%E1%BA%A1ch%20in/PCB_bocanhbaonguguc(front).png)
 
 **Thiết bị thực tế lắp ráp:**  
 ![PCB Real](https://github.com/hoanggtrn/Vehicle-Safety-Monitoring-And-Management-System/blob/b891f5cc6a181db0935d6e91fd1c9045bce5793c/Thi%E1%BA%BFt%20k%E1%BA%BF/H%C3%ACnh%20%E1%BA%A3nh%20s%E1%BA%A3n%20ph%E1%BA%A9m/P1011317.JPG)
-
+![PCB Real](https://github.com/hoanggtrn/Vehicle-Safety-Monitoring-And-Management-System/blob/f8ecf1a9dfae4f387d521779a2ef8ad7bbb4991f/Thi%E1%BA%BFt%20k%E1%BA%BF/H%C3%ACnh%20%E1%BA%A3nh%20s%E1%BA%A3n%20ph%E1%BA%A9m/P1011246.JPG)
 ## 📊 Kết quả đạt được
 
 - Hệ thống hoạt động ổn định trong các thử nghiệm thực tế.
