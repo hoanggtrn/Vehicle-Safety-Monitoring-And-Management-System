@@ -23,9 +23,10 @@ Hệ thống được thiết kế nhằm hỗ trợ giám sát và nâng cao an
 - **Cảm biến:**
   - MPU6050 (gia tốc)
   - Hall sensor (tốc độ)
-  - Cảm biến điện áp
+  - Cảm biến điện áp (cầu phân áp + ổn áp zener)
 - **Module ngoại vi:**
-  - SIM A7680C (GSM/GPS)
+  - NEO 6M V2 (GPS)
+  - SIM A7680C (GSM)
   - RC522 (RFID)
   - MicroSD module
   - Relay điều khiển khóa xe
